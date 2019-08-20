@@ -7,10 +7,10 @@
         </li>
         <li>{{ party.guestLimit }}&nbsp;guests.</li>
         <li
-          v-for="partyTime in parties.availablePartyTimes"
-          v-bind:key="partyTime.Id"
+          v-for="(time, day, index) in parties.availablePartyTimes"
+          v-bind:key="index"
         >
-          {{ partyTime }}
+          {{ day }}: {{ time }}
         </li>
       </ul>
     </td>
