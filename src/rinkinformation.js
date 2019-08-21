@@ -24,7 +24,6 @@ const rinkData = {
       deposit: "100",
       availablePartyTimes: [
         {
-          Id: 3,
           "Monday & Wednesday": "Anytime",
           Friday: "5pm - 7pm",
           Saturday: "10am - 12pm, 5pm - 7pm",
@@ -45,7 +44,6 @@ const rinkData = {
       deposit: "50",
       availablePartyTimes: [
         {
-          Id: 1,
           "Tuesday & Thursday": "5pm - 7pm, 5:30pm - 7:30pm, 6pm - 8pm",
           Friday: "7pm - 9pm",
           Saturday: "12pm - 2pm, 2:30pm - 4:30pm, 7pm - 9pm",
@@ -69,7 +67,6 @@ const rinkData = {
       deposit: "50",
       availablePartyTimes: [
         {
-          Id: 2,
           "Tuesday & Thursday": "5pm - 7pm, 5:30pm - 7:30pm, 6pm - 8pm",
           Friday: "7pm - 9pm",
           Saturday: "12pm - 2pm, 2:30pm - 4:30pm, 7pm - 9pm",
