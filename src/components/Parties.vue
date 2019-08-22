@@ -1,7 +1,12 @@
 <template>
   <div class="w3-display-container">
     <table class="w3-table ">
-      <td v-for="party in parties" v-bind:key="party.type" class="w3-center" style="width: 33%">
+      <td
+        v-for="party in parties"
+        v-bind:key="party.type"
+        class="w3-center"
+        style="width: 33%"
+      >
         <ul class="w3-ul w3-border">
           <li>
             <h2>{{ party.type }}</h2>

@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <div id="nav" class="w3-deep-purple">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/parties">Parties</router-link>
+      <router-link to="/">Johnson City Family Skate Center</router-link> |
+      <router-link to="/parties">Parties</router-link> |
+      <router-link to="/pdf">Calendar</router-link>
     </div>
     <router-view />
   </div>
